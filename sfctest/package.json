@@ -12,11 +12,11 @@
     "flatten": "rm -rf contracts/Flattened.sol && truffle-flattener contracts/Staker.sol >> contracts/Flattened.sol"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^2.3.0",
-    "axios": "^0.19.2",
+    "@openzeppelin/contracts": "^4.9.6",
+    "axios": "^1.7.7",
     "ethereumjs-util": "^6.2.0",
     "keythereum-pure-js": "^1.1.7",
-    "web3": "^1.2.6"
+    "web3": "^1.5.3"
   },
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
@@ -35,8 +35,8 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "ethereumjs-testrpc-sc": "^6.5.1-sc.0",
     "ethereumjs-tx": "^2.1.2",
-    "karma": "^4.3.0",
-    "lodash": "^4.17.15",
+    "karma": "^6.3.16",
+    "lodash": "^4.17.21",
     "openzeppelin-test-helpers": "^0.4.3",
     "solidity-coverage": "^0.7.1",
     "truffle-flattener": "^1.4.0",
